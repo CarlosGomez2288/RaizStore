@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Página Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="styyle.css">
+</head>
+
+<body>
+  <!-- Encabezado de la página -->
+  <nav class="navbar">
+    <div class="container">
+      
+        <a class="navbar-brand" href="index.html">
+            <img src="imgs/LogoRaiz1.PNG" class="img-fluid logo" alt="">
+        </a>
+
+        <div class="nav-collum ocultar" id="nav-collumm">
+            <ul class="nav-links">
+                <li class="nav-item select">
+                    <a class="nav-link active" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="categoria.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pedidos Online</a>
+                </li>
+            </ul>
+        </div>
+        <div class="menu-button-abrir">
+          <button id="abrir-categoria"><i class="bi bi-list"></i></button>
+        </div>
+    </div>
+</nav>
+
+  <!-- Sección principal del contenido -->
+  <main>
+    <div class="container mt-4">
+      <div class="row">
+        <!-- Columna de categorías -->
+        <div class=" col-lg-2 col-md-3" id="categorias">
+          <div class="menu-button-cerrar">
+            <button id="cerrar-categoria"><i class="bi bi-x-lg"></i></button>
+          </div>
+          <div class="category">
+            <h3 class="category-title  londrina-solid-light" data-target="#frutos-secos">
+            Frutos Secos <i class="bx bx-chevron-down custom-icon"></i>
+            </h3>
+            <ul id="frutos-secos" class="product-items custom-collapse">
+              <li><a href="#">Nueces</a></li>
+              <li><a href="#">Almendras</a></li>
+              <li><a href="#">Castañas</a></li>
+              <li><a href="#">Arándanos</a></li>
+              <li><a href="#">Ciruelas</a></li>
+              <li><a href="#">Mix de frutos secos</a></li>
+            </ul>
+          </div>
+        
+          <div class="category">
+            <h3 class="category-title londrina-solid-light " data-target="#snacks">
+            Snacks <i class="bx bx-chevron-down custom-icon"></i>
+            </h3>
+            <ul id="snacks" class="product-items custom-collapse">
+              <li><a href="#">Galletitas</a></li>
+              <li><a href="#">Papas fritas</a></li>
+              <li><a href="#">Chocolates</a></li>
+            </ul>
+          </div>
+        
+          <div class="category">
+            <h3 class="category-title londrina-solid-light"  data-target="#lateos">
+             Lácteos <i class="bx bx-chevron-down custom-icon"></i>
+            </h3>
+            <ul id="lateos" class="product-items custom-collapse">
+              <li><a href="#">Yogures</a></li>
+              <li><a href="#">Quesos</a></li>
+            </ul>
+          </div>
+        
+          <div class="category">
+            <h3 class="category-title londrina-solid-light "" data-target="#congelados">
+            Congelados <i class="bx bx-chevron-down custom-icon"></i>
+            </h3>
+            <ul id="congelados" class="product-items custom-collapse">
+              <li><a href="#">Medallones congelados</a></li>
+            </ul>
+          </div>
+        
+          <div class="category">
+            <h3 class="category-title londrina-solid-light"  data-target="#almacen">
+             Almacén <i class="bx bx-chevron-down custom-icon"></i>
+            </h3>
+            <ul id="almacen" class="product-items custom-collapse">
+              <li><a href="#">Azúcar</a></li>
+              <li><a href="#">Sales</a></li>
+              <li><a href="#">Harinas</a></li>
+              <li><a href="#">Hierbas</a></li>
+              <li><a href="#">Aceites</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Columna de productos -->
+        <div class=" col-lg-8 col-md-7 col-sm-4">
+          <div class="row">
+            <div class=" cole-6 col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="imgs/immo-wegmann-clUKWRNm27w-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Harina</h5>
+                  <p class="card-text">$2000</p>
+                  <a href="#" class="btn btn-primary">Añadir</a>
+                </div>
+              </div>
+              
+            </div>
+            <div class="cole-6 col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="imgs/immo-wegmann-clUKWRNm27w-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Harina</h5>
+                  <p class="card-text">$2000</p>
+                  <a href="#" class="btn btn-primary">Añadir</a>
+                </div>
+              </div>
+            </div>
+            <div class="cole-6 col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="imgs/immo-wegmann-clUKWRNm27w-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Harina</h5>
+                  <p class="card-text">$2000</p>
+                  <a href="#" class="btn btn-primary">Añadir</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="cole-6 col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="imgs/immo-wegmann-clUKWRNm27w-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Harina</h5>
+                  <p class="card-text">$2000</p>
+                  <a href="#" class="btn btn-primary">Añadir</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="cole-6 col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="imgs/immo-wegmann-clUKWRNm27w-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Harina</h5>
+                  <p class="card-text">$2000</p>
+                  <a href="#" class="btn btn-primary">Añadir</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="cole-6 col-md-6 col-lg-4 mb-4">
+              <div class="card">
+                <img src="imgs/immo-wegmann-clUKWRNm27w-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Harina</h5>
+                  <p class="card-text">$2000</p>
+                  <a href="#" class="btn btn-primary">Añadir</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="content-info bg-light py-4">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <!-- Logo -->
+        <div
+          class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start mb-3 mb-md-0 order-1 order-md-0">
+          <a class="footer-brand" href="">
+            <img class="img-fluid logo-footer" src="imgs/LogoRaiz1.PNG" alt="Logo" width="100">
+          </a>
+        </div>
+
+        <!-- Información -->
+        <div class="col-12 col-md-4 mb-3 mb-md-0 order-2">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident vero aperiam, esse quas culpa eos
+            doloribus explicabo nemo beatae modi voluptatibus, adipisci voluptas animi incidunt architecto accusantium
+            minus est inventore.
+          </p>
+        </div>
+
+        <!-- Sellos -->
+        <div class="col-12 col-md-4 order-3">
+          <p>Los productos envasados pueden contener:</p>
+          <img class="img-fluid mb-2" src="imgs/sellos-transparencia.png" alt="Sellos">
+          <p>Verificar cada producto en las secciones: envasados, congelados ó&nbsp;tapas&nbsp;frescas.</p>
+        </div>
+      </div>
+    </div>
+    <p class="text-center mt-3">&copy; 2025 Raiz Natural. Todos los derechos reservados.</p>
+  </footer>
+  
+  <!-- Archivo JavaScript externo -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous">
+  </script>
+  <script src="app2.js"></script>
+</body>
+
+</html>
